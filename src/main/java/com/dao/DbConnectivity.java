@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 
 public class DbConnectivity {
 
-	private String url="jdbc:mysql://localhost:3306/ett";
+	private String url="jdbc:mysql://localhost:3306/****";
 	private String userName="root";
-	private String password="sasank123.";
+	private String password="****";
 	
 	public Connection getConnection() {
 		try {
